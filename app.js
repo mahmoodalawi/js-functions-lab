@@ -17,3 +17,11 @@ const maxOfTwoNumbers = (x, y) => {
 }
 
 console.log('Exercise 2 Result:', isAdult(21));
+
+// Exercise 4
+
+function generateEmail(name, domain) {
+  return `${name}@${domain}`;
+}
+
+console.log(generateEmail("johnsmith", "example.com")); 
