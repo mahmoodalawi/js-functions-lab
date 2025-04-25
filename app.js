@@ -51,7 +51,16 @@ function maxOfThree(num1, num2, num3) {
   return largest;
 }
 
-console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+
+console.log('Exercise 6 :', maxOfThree(5, 10, 8));
+
+// Exercise 7
+
+function calculateTip(billAmount, tip) {
+  return (billAmount * (tip / 100));
+}
+
+console.log('Exercise 7 :', calculateTip(40, 20));
 
 
 
