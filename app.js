@@ -35,5 +35,21 @@ function greetUser(name, timeOfDay) {
 
 console.log('Exercise 5:', greetUser("Sam", "morning"));
 
+function maxOfThree(num1, num2, num3) {
+  let largest = num1;
+
+  if (num2 > largest) {
+    largest = num2;
+  }
+
+  if (num3 > largest) {
+    largest = num3;
+  }
+
+  return largest;
+}
+
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+
 
 
