@@ -16,7 +16,7 @@ const maxOfTwoNumbers = (x, y) => {
     }
 }
 
-console.log('Exercise 2 Result:', isAdult(21));
+console.log('Exercise 2:', isAdult(21));
 
 // Exercise 4
 
@@ -24,4 +24,16 @@ function generateEmail(name, domain) {
   return `${name}@${domain}`;
 }
 
-console.log(generateEmail("johnsmith", "example.com")); 
+console.log('Exercise 3:', generateEmail("johnsmith", "example.com")); 
+
+
+// Exercise 5
+
+function greetUser(name, timeOfDay) {
+  return `Good ${timeOfDay}, ${name}!`;
+}
+
+console.log('Exercise 5:', greetUser("Sam", "morning"));
+
+
+
