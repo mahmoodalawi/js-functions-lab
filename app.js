@@ -75,5 +75,13 @@ function convertTemperature(temp, scale) {
 
 console.log('Exercise 8', convertTemperature(32, "C"));
 
+// // Exercise 9
 
+function basicCalculator(num1, num2, operation) {
+  if (operation === 'subtract') {
+    return num1 - num2;
+  }
+}
+
+console.log('Exercise 9', basicCalculator(10, 5, 'subtract')); 
 
