@@ -62,5 +62,18 @@ function calculateTip(billAmount, tip) {
 
 console.log('Exercise 7 :', calculateTip(40, 20));
 
+// Exercise 8 
+// not sure if this the the correct way to do it as 
+
+function convertTemperature(temp, scale) {
+  if (scale === 'C') {
+    return ((temp * 1.8) + 32);
+  } else {
+    return ((temp - 32) / 1.8);
+  }
+}
+
+console.log('Exercise 8', convertTemperature(32, "C"));
+
 
 
