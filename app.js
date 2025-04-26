@@ -92,11 +92,17 @@ console.log('Exercise 8', convertTemperature(32, "C"));
 
 // // Exercise 9
 
-function basicCalculator(num1, num2, operation) {
-  if (operation === 'subtract') {
+function basicCalculator(num1, num2, operationType) {
+  if (operationType === 'add') {
+    return num1 + num2;
+  } else if (operationType === 'subtract') {
     return num1 - num2;
-  } elseif 
+  } else if (operationType === 'multiply') {
+    return num1 * num2;
+  } else if (operationType === 'divide') {
+    return num1 / num2;
+  }
 }
 
-console.log('Exercise 9', basicCalculator(10, 5, 'subtract')); 
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract")); 
 
