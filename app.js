@@ -5,7 +5,8 @@ const maxOfTwoNumbers = (x, y) => {
       return y;
     }
   }
-  
+  // Exercise 2
+
   console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
   function isAdult(age) {
@@ -17,6 +18,20 @@ const maxOfTwoNumbers = (x, y) => {
 }
 
 console.log('Exercise 2:', isAdult(21));
+
+// Exercise 3 
+
+function isCharAVowel(char) {
+  if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isCharAVowel('a'))
+
+
 
 // Exercise 4
 
@@ -80,7 +95,7 @@ console.log('Exercise 8', convertTemperature(32, "C"));
 function basicCalculator(num1, num2, operation) {
   if (operation === 'subtract') {
     return num1 - num2;
-  }
+  } elseif 
 }
 
 console.log('Exercise 9', basicCalculator(10, 5, 'subtract')); 
